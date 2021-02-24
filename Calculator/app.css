@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+}
+#sum{
+    border: solid 2px;
+    
+}
+#subtration{
+    border: solid 2px;
+    
+}
+#multiplication{
+    border: solid 2px;
+    
+}
+#division{
+    border: solid 2px;
+    
+}
+#equal{
+    border: solid 2px;
+    
+}
+.buttons{
+    margin: auto;
+    padding: 10px;
+}
+#result{
+    border: 1px;
+}
