@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    padding: 8px;
+}
+.body{
+    padding: 20px;
+    margin: 8px;
+    border: 1px solid;
+    border-width: 2px;
+}
+.body-form{
+    padding: 10px;
+}
+.select-type-room{
+    padding: 10px;
+}
+.select-activity-room{
+    padding: 10px;
+}
+.inputs{
+    padding: 10px;
+}
+.button{
+    padding: 10px;
+}
+.input-spa{
+    padding: 10px;
+}
+.input-night{
+    padding: 10px;
+}
+.input-parking{
+    padding: 10px;
+}
