@@ -21,36 +21,39 @@
             <div class="select-type-room">
                 <label for="typeRoom">¿Que tipo de habitación desea?</label>
                 <select name="typeRoom" id="typeRoom">
-                    <option value="standard">Standard</option>
-                    <option value="junior-suite">Junior Suite</option>
-                    <option value="suite">Suite</option>
+                    <option value="standard" >Standard</option>
+                    <option value="junior-suite" >Junior suite</option>
+                    <option value="suite" >Suite</option>
                 </select>
             </div>
             <div class="select-activity-room">
                 <label for="activityRoom">La habitacion sera, ¿individual, doble o triple?</label>
                 <select name="activityRoom" id="activityRoom">
-                    <option value="individual">Individual</option>
-                    <option value="doble">Doble</option>
-                    <option value="triple">Tirple</option>
+                    <option value="individual" >Individual</option>
+                    <option value="double" >Doble</option>
+                    <option value="triple" >Triple</option>
                 </select>
             </div>
             <div class="inputs">
                 <div class="input-spa">
                     <label for="spa">¿Quieres usar el SPA?</label>
-                    <input type="checkbox" id="spa-si" name="spa-si">Si
-                    <input type="checkbox" id="spa-no" name="spa-no">No
+                    <input type="checkbox" id="spa" name="spa">
+                    
                 </div>
                 <div class="input-night">
                     <label for="number-night">¿Cuál es el número de noches?</label>
-                    <input type="number">
+                    <input type="number" id="number-night">
                 </div>
                 <div class="input-parking">
                     <label for="number-parking">¿Cuántos días de parking desea?</label>
-                    <input type="number">
+                    <input type="number" id="number-parking">
                 </div>
             </div>
             <div class="button">
                 <button id="button-calculation">Calcular</button>
+            </div>
+            <div class="result">
+                <h2 id="result">Total</h2>
             </div>
         </div>
     </div>
